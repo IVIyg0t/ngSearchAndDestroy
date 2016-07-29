@@ -1,0 +1,13 @@
+<div class="ng-search">
+    <input type="text" ng-model="searchQuery" ng-click="textClick()" ng-keyup="keyUp(searchQuery.toLowerCase())" placeholder="{{listData[0][ext]}}">
+    <div class="list" ng-show="showPopup">
+        <table class="list-table table table-striped">
+            <tbody>
+                <tr ng-repeat="data in listData" ng-click="itemClicked(data)">
+                    <td ng-if="ext">{{data[ext]}}</td>
+                    <td ng-if="!ext">{{data}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
