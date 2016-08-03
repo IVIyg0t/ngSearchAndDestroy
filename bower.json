@@ -1,0 +1,27 @@
+{
+  "name": "ng-search-and-destroy",
+  "description": "Angular module for fuzzy search lists",
+  "main": "index.js",
+  "authors": [
+    "Taylor Roberts <mjtaylorroberts@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "fuzzy",
+    "angularjs",
+    "javascript",
+    "directive",
+    "search"
+  ],
+  "homepage": "https://github.com/IVIyg0t/ngSearchAndDestroy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0"
+  }
+}
