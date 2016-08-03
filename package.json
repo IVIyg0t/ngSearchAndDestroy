@@ -1,6 +1,6 @@
 {
   "name": "ng-search-and-destroy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular module for fuzzy search lists",
   "main": "index.js",
   "devDependencies": {},
